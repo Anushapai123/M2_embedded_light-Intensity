@@ -1,0 +1,11 @@
+3_Implementation/src/lf.c:15:16: style: The scope of the variable 'SWITCH1' can be reduced. [variableScope]
+    static int SWITCH1,SWITCH2;
+               ^
+3_Implementation/src/lf.c:15:24: style: The scope of the variable 'SWITCH2' can be reduced. [variableScope]
+    static int SWITCH1,SWITCH2;
+                       ^
+3_Implementation/src/lf.c:16:9: style: The scope of the variable 'key' can be reduced. [variableScope]
+    int key;
+        ^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+
